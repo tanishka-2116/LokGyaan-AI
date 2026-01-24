@@ -1,0 +1,19 @@
+project:
+  name: LokGyaan AI
+  theme: AI for Social Good
+  description: >
+    Platform to preserve India's oral traditional knowledge
+    by converting spoken wisdom into structured digital data.
+
+modules:
+  - voice_input
+  - speech_to_text
+  - knowledge_extraction
+  - knowledge_storage
+
+languages_supported:
+  - Hindi
+  - Marathi
+  - Other regional languages
+
+status: prototype
