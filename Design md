@@ -1,0 +1,49 @@
+# System Design – LokGaayan AI
+
+## Overview
+LokGaayan AI is a conceptual AI-driven system developed under the AI for Bharat Hackathon. The platform focuses on preserving and promoting India’s folk culture by leveraging Generative AI to digitally represent oral traditions, folk songs, and regional narratives.
+
+## System Architecture
+The system follows a modular architecture:
+
+1. User Interface Layer  
+2. AI Processing Layer  
+3. Cloud & Storage Layer  
+4. Knowledge & Content Layer  
+
+## System Flow
+1. User inputs a query related to a folk tradition, region, or cultural theme  
+2. Input is processed by Generative AI via Kiro  
+3. AI generates culturally contextualized information and explanations  
+4. Output is presented in a structured and easy-to-understand format  
+
+## Technology Stack
+- Generative AI: Kiro  
+- Cloud Infrastructure: AWS (conceptual)  
+- Frontend: Web-based interface (conceptual)  
+- Backend: AI services and cloud storage  
+- Version Control: GitHub  
+
+## Design Considerations
+- Respect for cultural authenticity  
+- Avoidance of biased or inaccurate representation  
+- Simple and inclusive design approach  
+- Expandable structure for future enhancements  
+
+## Security & Ethics
+- Ethical use of Generative AI  
+- Cultural sensitivity in content generation  
+- No misuse or misrepresentation of traditions  
+
+## Scalability
+- Cloud-native design approach  
+- Modular components allow easy feature addition  
+- Supports future multimedia integration  
+
+## Limitations
+- Prototype-level implementation  
+- Dependent on AI model knowledge accuracy  
+- Requires curated data for deeper authenticity  
+
+## Conclusion
+LokGaayan AI demonstrates how Artificial Intelligence can be used not only for technological advancement but also for cultural preservation. The system aligns with the vision of Viksit Bharat by safeguarding India’s intangible heritage through responsible AI innovation.
