@@ -1,59 +1,100 @@
-/* ===== Global Styles ===== */
+/* ===============================
+   LokGyaan AI – Heritage Earth Theme
+   =============================== */
+
+/* ---------- Color Variables ---------- */
+:root {
+    --primary: #2F5D50;      /* Deep forest green */
+    --secondary: #E6DFD3;    /* Sand beige */
+    --background: #F7F4EF;   /* Warm off-white */
+    --text-main: #333333;    /* Charcoal */
+    --accent: #8B5E3C;       /* Clay brown */
+}
+
+/* ---------- Global Styles ---------- */
 body {
     margin: 0;
     font-family: "Segoe UI", Roboto, Arial, sans-serif;
-    background-color: #f7f4ef;
-    color: #333;
-    line-height: 1.7;
+    background-color: var(--background);
+    color: var(--text-main);
+    line-height: 1.8;
 }
 
-/* ===== Header ===== */
+/* ---------- Header ---------- */
 header {
-    background-color: #2f5d50;
+    background-color: var(--primary);
     color: white;
-    padding: 32px 20px;
+    padding: 36px 20px;
     text-align: center;
 }
 
-/* ===== Navigation ===== */
+header h1 {
+    margin-bottom: 8px;
+}
+
+header p {
+    opacity: 0.95;
+}
+
+/* ---------- Navigation ---------- */
 nav {
-    background-color: #e6dfd3;
-    padding: 12px;
+    background-color: var(--secondary);
+    padding: 14px;
     text-align: center;
 }
 
 nav a {
-    margin: 0 14px;
+    margin: 0 16px;
     text-decoration: none;
     font-weight: 600;
-    color: #2f5d50;
+    color: var(--primary);
 }
 
 nav a:hover {
+    color: var(--accent);
     text-decoration: underline;
 }
 
-/* ===== Sections ===== */
+/* ---------- Sections ---------- */
 section {
     max-width: 900px;
-    margin: 40px auto 60px auto;
+    margin: 50px auto;
     padding: 0 20px;
 }
 
 section h2 {
-    color: #2f5d50;
+    color: var(--primary);
     margin-bottom: 12px;
 }
 
 section h3 {
-    margin-top: 20px;
+    margin-top: 24px;
+    color: var(--accent);
 }
 
-/* ===== Footer ===== */
+/* ---------- Lists ---------- */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ---------- Images ---------- */
+img {
+    margin-top: 14px;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+/* ---------- Footer ---------- */
 footer {
-    background-color: #2f5d50;
+    background-color: var(--primary);
     color: white;
     text-align: center;
-    padding: 14px;
-    margin-top: 40px;
+    padding: 16px;
+    margin-top: 60px;
+    font-size: 0.95rem;
 }
+
