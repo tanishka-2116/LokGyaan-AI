@@ -167,3 +167,29 @@ footer {
         width: 100%;
     }
 }
+.festival-detail {
+    margin: 60px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 8px solid var(--primary);
+}
+
+.festival-image {
+    width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.festival-detail h2 {
+    color: var(--primary);
+}
+
+.festival-detail h3 {
+    margin-top: 20px;
+    color: var(--accent);
+}
+
