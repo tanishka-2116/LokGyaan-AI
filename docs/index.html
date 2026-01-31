@@ -1,58 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>LokGyaan AI</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>LokGyaan AI | India’s Festivals & Traditional Knowledge</title>
+
+<style>
+:root{
+  --primary:#2fa4a9;
+  --secondary:#d16c8f;
+  --bg:#fdfefe;
+  --card:#ffffff;
+  --text:#333;
+}
+
+html{ scroll-behavior:smooth; }
+
+body{
+  margin:0;
+  font-family:"Segoe UI", Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.8;
+}
+
+header{
+  background:linear-gradient(135deg,var(--primary),var(--secondary));
+  color:white;
+  padding:55px 20px;
+  text-align:center;
+}
+
+header h1{ margin:0; font-size:2.8rem; }
+header p{
+  max-width:900px;
+  margin:16px auto 0;
+  opacity:.95;
+}
+
+nav{
+  position:sticky;
+  top:0;
+  background:#fff;
+  padding:14px;
+  text-align:center;
+  box-shadow:0 4px 12px rgba(0,0,0,.06);
+  z-index:10;
+}
+
+nav a{
+  margin:0 10px;
+  text-decoration:none;
+  font-weight:600;
+  color:var(--secondary);
+}
+
+section{
+  max-width:1200px;
+  margin:auto;
+  padding:70px 22px;
+}
+
+section h2{
+  text-align:center;
+  font-size:2.4rem;
+  color:var(--secondary);
+  margin-bottom:50px;
+}
+
+.festival-card{
+  background:var(--card);
+  border-left:8px solid var(--secondary);
+  border-radius:20px;
+  padding:34px;
+  margin-bottom:70px;
+  box-shadow:0 14px 36px rgba(0,0,0,.08);
+}
+
+.festival-card h3{
+  margin-top:0;
+  color:var(--secondary);
+}
+
+footer{
+  background:linear-gradient(135deg,var(--secondary),var(--primary));
+  color:white;
+  text-align:center;
+  padding:24px;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-    <h1>LokGyaan AI</h1>
-    <p>Preserving India’s Traditional Knowledge using AI</p>
+<h1>LokGyaan AI</h1>
+<p>
+A digital knowledge archive preserving India’s festivals, traditions,
+seasonal wisdom, and cultural values for present and future generations.
+</p>
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="regions.html">Regions</a>
-    <a href="festivals.html">Festivals</a>
-    <a href="archive.html">Knowledge Archive</a>
-    <a href="about.html">About</a>
-    <a href="contribute.html">Contribute</a>
+<a href="#jan">Jan</a><a href="#feb">Feb</a><a href="#mar">Mar</a>
+<a href="#apr">Apr</a><a href="#may">May</a><a href="#jun">Jun</a>
+<a href="#jul">Jul</a><a href="#aug">Aug</a><a href="#sep">Sep</a>
+<a href="#oct">Oct</a><a href="#nov">Nov</a><a href="#dec">Dec</a>
 </nav>
 
-<section>
-    <h2>India’s Living Knowledge</h2>
-    <p>
-        India’s traditions vary across regions, languages, seasons,
-        and communities. LokGyaan AI preserves this cultural diversity
-        using ethical and community-first AI.
-    </p>
+<!-- JANUARY -->
+<section id="jan">
+<h2>January – Harvest & Solar Wisdom</h2>
+
+<div class="festival-card">
+<h3>Makar Sankranti / Pongal / Lohri / Magh Bihu</h3>
+<p>
+January festivals revolve around the Sun’s northward movement and the
+completion of harvest cycles. Ancient communities aligned nutrition,
+social bonding, and outdoor activity with increasing daylight.
+</p>
+<p><strong>Food logic:</strong> Sesame, jaggery, rice, milk — warming, energizing foods.</p>
+<p><strong>Clothing:</strong> Dark or layered clothing to manage winter cold.</p>
+<p><strong>Values:</strong> Gratitude to nature, harmony, sharing.</p>
+</div>
 </section>
 
-<section>
-    <h2>Why LokGyaan AI?</h2>
-    <p>
-        Much of India’s traditional knowledge is passed orally and is
-        rapidly disappearing. LokGyaan AI converts spoken wisdom into
-        structured digital knowledge for future generations.
-    </p>
+<!-- FEBRUARY -->
+<section id="feb">
+<h2>February – Learning, Devotion & Inner Discipline</h2>
+
+<div class="festival-card">
+<h3>Vasant Panchami, Maha Shivratri, Losar, Thaipusam</h3>
+<p>
+February festivals focus on intellectual growth, spiritual purification,
+and seasonal transition from winter to spring.
+</p>
+<p><strong>Food logic:</strong> Light, sattvic meals; fasting for discipline.</p>
+<p><strong>Clothing:</strong> Yellow, white, or minimal attire symbolizing purity.</p>
+<p><strong>Values:</strong> Knowledge, self-control, spiritual awareness.</p>
+</div>
 </section>
 
-<section>
-    <h2>How It Works</h2>
-    <ul>
-        <li>Community members share knowledge through voice</li>
-        <li>AI understands language and regional context</li>
-        <li>Knowledge is structured and stored</li>
-        <li>Users explore traditions by region</li>
-    </ul>
+<!-- MARCH -->
+<section id="mar">
+<h2>March – New Year & Renewal</h2>
+
+<div class="festival-card">
+<h3>Holi, Ugadi, Gudi Padwa</h3>
+<p>
+March marks renewal, agricultural preparation, and regional new years.
+Color, joy, and social equality are emphasized.
+</p>
+<p><strong>Food logic:</strong> Neem, jaggery combinations balance seasonal change.</p>
+<p><strong>Clothing:</strong> Bright cotton garments.</p>
+<p><strong>Values:</strong> Renewal, forgiveness, equality.</p>
+</div>
+</section>
+
+<!-- APRIL -->
+<section id="apr">
+<h2>April – New Beginnings & Responsibility</h2>
+
+<div class="festival-card">
+<h3>Ram Navami, Baisakhi, Vishu, Tamil New Year</h3>
+<p>
+April festivals emphasize moral leadership, harvest gratitude, and new
+societal cycles.
+</p>
+<p><strong>Food logic:</strong> Seasonal grains, fresh produce.</p>
+<p><strong>Values:</strong> Duty, discipline, community responsibility.</p>
+</div>
+</section>
+
+<!-- MAY -->
+<section id="may">
+<h2>May – Devotion & Endurance</h2>
+
+<div class="festival-card">
+<h3>Buddha Purnima</h3>
+<p>
+May highlights compassion, non-violence, and mental balance during peak
+summer.
+</p>
+<p><strong>Food logic:</strong> Light, cooling foods.</p>
+<p><strong>Values:</strong> Peace, mindfulness, compassion.</p>
+</div>
+</section>
+
+<!-- JUNE -->
+<section id="jun">
+<h2>June – Balance & Preparation</h2>
+
+<div class="festival-card">
+<h3>Jagannath Rath Yatra</h3>
+<p>
+June festivals emphasize humility, equality, and preparation for monsoon.
+</p>
+<p><strong>Values:</strong> Inclusiveness, service.</p>
+</div>
+</section>
+
+<!-- JULY -->
+<section id="jul">
+<h2>July – Faith & Nature Alignment</h2>
+
+<div class="festival-card">
+<h3>Guru Purnima</h3>
+<p>
+Acknowledges the importance of teachers and guidance in life.
+</p>
+<p><strong>Values:</strong> Respect, learning, discipline.</p>
+</div>
+</section>
+
+<!-- AUGUST -->
+<section id="aug">
+<h2>August – Courage & Independence</h2>
+
+<div class="festival-card">
+<h3>Raksha Bandhan, Janmashtami, Independence Day</h3>
+<p>
+Celebrates bonds, righteousness, and national identity.
+</p>
+<p><strong>Values:</strong> Protection, freedom, responsibility.</p>
+</div>
+</section>
+
+<!-- SEPTEMBER -->
+<section id="sep">
+<h2>September – Harvest & Gratitude</h2>
+
+<div class="festival-card">
+<h3>Onam, Ganesh Chaturthi</h3>
+<p>
+Focuses on prosperity, inclusiveness, and ecological balance.
+</p>
+<p><strong>Values:</strong> Unity, environmental respect.</p>
+</div>
+</section>
+
+<!-- OCTOBER -->
+<section id="oct">
+<h2>October – Dharma & Victory of Good</h2>
+
+<div class="festival-card">
+<h3>Navratri, Dussehra</h3>
+<p>
+Symbolizes victory of righteousness over injustice.
+</p>
+<p><strong>Values:</strong> Courage, moral strength.</p>
+</div>
+</section>
+
+<!-- NOVEMBER -->
+<section id="nov">
+<h2>November – Prosperity & Inner Light</h2>
+
+<div class="festival-card">
+<h3>Diwali, Chhath Puja, Guru Nanak Jayanti</h3>
+<p>
+Celebrates light, gratitude, and disciplined devotion.
+</p>
+<p><strong>Values:</strong> Hope, humility, cleanliness.</p>
+</div>
+</section>
+
+<!-- DECEMBER -->
+<section id="dec">
+<h2>December – Reflection & Community</h2>
+
+<div class="festival-card">
+<h3>Christmas, Hornbill Festival</h3>
+<p>
+Marks reflection, generosity, and cultural celebration.
+</p>
+<p><strong>Values:</strong> Kindness, unity, celebration of diversity.</p>
+</div>
 </section>
 
 <footer>
-    © 2026 LokGyaan AI | Built for Social Good
+© 2026 LokGyaan AI — Preserving India’s Living Cultural Knowledge
 </footer>
 
 </body>
 </html>
+
 
