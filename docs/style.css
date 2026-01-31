@@ -97,4 +97,36 @@ footer {
     margin-top: 60px;
     font-size: 0.95rem;
 }
+/* ---------- Festival Cards ---------- */
+.festival-card {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-left: 6px solid var(--primary);
+    border-radius: 8px;
+}
+
+.festival-card img {
+    width: 220px;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.festival-card h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .festival-card {
+        flex-direction: column;
+    }
+
+    .festival-card img {
+        width: 100%;
+    }
+}
+
 
