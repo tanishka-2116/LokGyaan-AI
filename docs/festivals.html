@@ -1,74 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Festivals | LokGyaan AI</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Festivals of India | LokGyaan AI</title>
+
+<style>
+body{
+  margin:0;
+  font-family:"Segoe UI", Arial, sans-serif;
+  background:#fdf7f4;
+  color:#333;
+  line-height:1.8;
+}
+
+header{
+  background:linear-gradient(135deg,#c76d86,#f3b6c2);
+  color:white;
+  padding:60px 20px;
+  text-align:center;
+}
+
+header h1{
+  margin:0;
+  font-size:2.7rem;
+}
+
+header p{
+  max-width:950px;
+  margin:18px auto 0;
+  opacity:.95;
+}
+
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:70px 20px;
+}
+
+.month-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+
+.month-card{
+  background:white;
+  border-left:7px solid #c76d86;
+  border-radius:16px;
+  padding:26px;
+  box-shadow:0 10px 26px rgba(0,0,0,0.08);
+}
+
+.month-card h3{
+  margin-top:0;
+  color:#c76d86;
+  font-size:1.5rem;
+}
+
+.month-card p{
+  margin:12px 0;
+}
+
+.month-card a{
+  display:inline-block;
+  margin-top:12px;
+  color:#c76d86;
+  font-weight:600;
+  text-decoration:none;
+}
+
+footer{
+  background:#c76d86;
+  color:white;
+  text-align:center;
+  padding:22px;
+  font-size:.95rem;
+}
+</style>
 </head>
 
+<body>
+
+<header>
+<h1>Festivals of India</h1>
+<p>
+Explore India’s cultural calendar month-by-month.
+Each page preserves the origins, rituals, food knowledge,
+clothing traditions, and values of our festivals.
+</p>
+</header>
+
 <section>
-    <h2>Festivals & Cultural Practices of India</h2>
-    <p>
-        India celebrates thousands of festivals shaped by seasons,
-        regions, agriculture, faith, and community traditions.
-        Explore festivals month-wise to understand India’s cultural diversity.
-    </p>
+<div class="month-grid">
 
-    <div class="festival-card" style="border-left-color:#C75B12;">
-        <div>
-            <h3>January Festivals</h3>
-            <p>
-                Harvest celebrations, solar transition festivals,
-                and community bonding mark the cultural beginning of the year.
-            </p>
-        <p><strong>Major Festivals:</strong> Pongal, Makar Sankranti, Lohri, Magh Bihu, Uttarayan</p>
-        <a href="festivals/january.html">Explore January →</a>
-        </div>
-    </div>
+<!-- JANUARY -->
+<div class="month-card">
+<h3>January</h3>
+<p>Harvest festivals, solar transitions, and community bonding.</p>
+<p><strong>Major:</strong> Makar Sankranti, Pongal, Lohri</p>
+<a href="january.html">Explore January →</a>
+</div>
 
-    <div class="festival-card" style="border-left-color:#4A7C59;">
-        <div>
-           <h3>February Festivals</h3>
-<p>
-Festivals of devotion, art, and regional traditions
-celebrated as winter transitions to spring.
-</p>
-<p><strong>Major Festivals:</strong> Vasant Panchami, Maha Shivratri, Losar, Magha Purnima</p>
+<!-- FEBRUARY -->
+<div class="month-card">
+<h3>February</h3>
+<p>Knowledge, devotion, discipline, and spiritual renewal.</p>
+<p><strong>Major:</strong> Vasant Panchami, Maha Shivratri, Losar</p>
+<a href="february.html">Explore February →</a>
+</div>
 
-<a href="february.html" style="
-display:inline-block;
-margin-top:12px;
-color:#c76d86;
-font-weight:600;
-text-decoration:none;">
-            <a href="festivals/february.html">Explore February →</a>
-        </div>
-    </div>
+<!-- MARCH -->
+<div class="month-card">
+<h3>March</h3>
+<p>Spring arrival, colors, balance, and regional New Years.</p>
+<p><strong>Major:</strong> Holi, Gudi Padwa, Ugadi</p>
+<a href="march.html">Explore March →</a>
+</div>
 
-</a>
+<!-- APRIL -->
+<div class="month-card">
+<h3>April</h3>
+<p>Regional New Year celebrations and seasonal alignment.</p>
+<p><strong>Major:</strong> Baisakhi, Vishu, Puthandu, Bohag Bihu</p>
+<a href="april.html">Explore April →</a>
+</div>
 
-    
-<div class="festival-card" style="border-left-color:#4A7C59;">
-        <div>
-   <h3>March Festivals</h3>
-<p>
-Spring festivals celebrating color, renewal,
-balance, and regional New Year traditions across India.
-</p>
+<!-- MAY -->
+<div class="month-card">
+<h3>May</h3>
+<p>Devotion, fasting, and heat-season adaptation.</p>
+<p><strong>Major:</strong> Akshaya Tritiya, Buddha Purnima</p>
+<a href="may.html">Explore May →</a>
+</div>
 
-<p>
-<strong>Major Festivals:</strong> Holi, Gudi Padwa, Ugadi, Cheti Chand
-</p>
+<!-- JUNE -->
+<div class="month-card">
+<h3>June</h3>
+<p>Monsoon preparation and spiritual observances.</p>
+<p><strong>Major:</strong> Rath Yatra, Vat Savitri</p>
+<a href="june.html">Explore June →</a>
+</div>
 
-<a href="march.html" style="
-display:inline-block;
-margin-top:12px;
-color:#c26b3a;
-font-weight:600;
-text-decoration:none;">
-                <a href="festivals/march.html">Explore march →</a>
+<!-- JULY -->
+<div class="month-card">
+<h3>July</h3>
+<p>Devotion, learning, and seasonal rituals.</p>
+<p><strong>Major:</strong> Guru Purnima</p>
+<a href="july.html">Explore July →</a>
+</div>
 
+<!-- AUGUST -->
+<div class="month-card">
+<h3>August</h3>
+<p>Faith, freedom, devotion, and monsoon abundance.</p>
+<p><strong>Major:</strong> Raksha Bandhan, Janmashtami, Independence Day</p>
+<a href="august.html">Explore August →</a>
+</div>
 
-    </div>
-    </div>
-    </a>
+<!-- SEPTEMBER -->
+<div class="month-card">
+<h3>September</h3>
+<p>Strength, harvest gratitude, and spiritual discipline.</p>
+<p><strong>Major:</strong> Ganesh Chaturthi, Onam</p>
+<a href="september.html">Explore September →</a>
+</div>
 
+<!-- OCTOBER -->
+<div class="month-card">
+<h3>October</h3>
+<p>Victory of good over evil and feminine energy.</p>
+<p><strong>Major:</strong> Navratri, Dussehra</p>
+<a href="october.html">Explore October →</a>
+</div>
+
+<!-- NOVEMBER -->
+<div class="month-card">
+<h3>November</h3>
+<p>Light, prosperity, family bonds, and gratitude.</p>
+<p><strong>Major:</strong> Diwali, Chhath Puja</p>
+<a href="november.html">Explore November →</a>
+</div>
+
+<!-- DECEMBER -->
+<div class="month-card">
+<h3>December</h3>
+<p>Reflection, charity, and year-end observances.</p>
+<p><strong>Major:</strong> Christmas, Hornbill Festival</p>
+<a href="december.html">Explore December →</a>
+</div>
+
+</div>
 </section>
+
+<footer>
+© 2026 LokGyaan AI | India’s Cultural Calendar & Knowledge Archive
+</footer>
+
+</body>
+</html>
+
