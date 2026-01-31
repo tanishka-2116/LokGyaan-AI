@@ -130,3 +130,40 @@ footer {
 }
 
 
+.festival-card {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 8px solid var(--primary);
+    border-radius: 10px;
+}
+
+.festival-card img {
+    width: 240px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.festival-card a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.festival-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .festival-card {
+        flex-direction: column;
+    }
+
+    .festival-card img {
+        width: 100%;
+    }
+}
